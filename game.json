@@ -1,0 +1,101 @@
+{
+    "passages": [
+      {
+        "text": "You're awakened by the sounds of distant car alarms and crackling of flames... you're upside down being held up by your car seat belt. \"Ugh where am I.. ? Did I really crash another one, god dad is gonna kill me\" you think to yourself as the pounding headache from the crash and drinking are starting to set in again. As you continue to look at your surroundings you can tell your car is done for. It doesn't seem like there is anyone in the area and your seemingly all alone\n\nWhat do you do next?\n\n[[Shout for help -> silence]]\n\n[[Try to remove the seat belt -> Outside the car]]\n",
+        "links": [
+          {
+            "name": "Shout for help ",
+            "link": " silence",
+            "pid": "2"
+          },
+          {
+            "name": "Try to remove the seat belt ",
+            "link": " Outside the car",
+            "pid": "3"
+          }
+        ],
+        "name": "The Car",
+        "pid": "1",
+        "position": {
+          "x": "405",
+          "y": "171.5"
+        }
+      },
+      {
+        "text": "As you attempt to raise your voice and shout for help you feel an instant burst of pain in your chest and lower side. Upon inspecting the areas the pain was coming from you can notice a reasonibly large cut below your ribs. Despite the pain you continue to shout for help but it doesn't seem as though anyone is around until...a faint almost unnoticable scrapping and shuffling sound can be heard in the distance\n\n[[shout again -> encounter]]",
+        "links": [
+          {
+            "name": "shout again ",
+            "link": " encounter",
+            "pid": "5"
+          }
+        ],
+        "name": " silence",
+        "pid": "2",
+        "position": {
+          "x": "212",
+          "y": "53.5"
+        }
+      },
+      {
+        "text": "After a few minutes of catching your breath you look around for your phone to call for help. After scanning the interior of the car you can tell your phone isn't anywhere in sight. Taking a moment to prepare yourself for the impending fall you finally unbuckle your seat belt which is meet with a heafty thud as you hit the roof of your car. You slowly crawle over the shattered glass out from the front windowsheild. As you rise from the ground you get a sharp pain in your side. A decently sized cut is placed right under your right ribcage. You see from where your car came off the road from...through highway barricades down into a ditch.\n\n\"God what happened?\" you think to yourself\n\n[[Climb up the hill onto the Highway-> The Highway]]",
+        "links": [
+          {
+            "name": "Climb up the hill onto the Highway",
+            "link": " The Highway",
+            "pid": "4"
+          }
+        ],
+        "name": " Outside the car",
+        "pid": "3",
+        "position": {
+          "x": "589",
+          "y": "280.5"
+        }
+      },
+      {
+        "text": "Upon reaching the top of the hill you can see that something is horribly wrong. Cars by the dozen have been left abandoned or totalled in the street and over the tree line heading back towards downtown you can see the faint yellow glow of flames. In either direction of the highway there's no one insight and there is only a faint amount of light from car headlights and street lights\n\n[[Go left -> Encounter 2]]\n\n[[Go right -> Encounter 2]]\n",
+        "links": [
+          {
+            "name": "Go left ",
+            "link": " Encounter 2",
+            "pid": "6"
+          },
+          {
+            "name": "Go right ",
+            "link": " Encounter 2",
+            "pid": "6"
+          }
+        ],
+        "name": " The Highway",
+        "pid": "4",
+        "position": {
+          "x": "765",
+          "y": "290.5"
+        }
+      },
+      {
+        "text": "After finally letting out the loudest shout you can you recoil from the intense shock of pain you can hear the noises approaching you but at an incredibly slow pace until finally you hear what sounds like someone rolling down a hill...as they reach they bottom the body rolls infront of the car in perfect view of the car headlights. You can see that this...this thing...it isn't human or at least not anymore, he's missing a good portion of his lower leg down to the point you can see his femur through the holes and tears in his pants. As the head slowly turns to you you are overrun by fear as you see his jaw is unhinged and the right hand side of face has been nearly melted off...as he slowly approaches you, you know you have to leave know or else everything is over...\n\nTO BE CONTINUED...",
+        "name": " encounter",
+        "pid": "5",
+        "position": {
+          "x": "212",
+          "y": "203.5"
+        }
+      },
+      {
+        "text": "As you begin heading down the highway it doesnt take long for you to spot what you believed was a person under one of the street lights but...upon closer inspection you realize that this thing isn't human anymore. As you stop to observe the slinder man you can see that he is missing a fair portion of his leg to the point you can see his femur through the holes and tears in his pants. Being unable to continue forward you start looking around for alternative routes and as your eyes adjust to the darkness you can tell that the slinder man is not alone. A few others stand alone in the dark all around you...you've got no where to go...what do you do now..?\n\nTO BE CONTINUED",
+        "name": " Encounter 2",
+        "pid": "6",
+        "position": {
+          "x": "765",
+          "y": "440.5"
+        }
+      }
+    ],
+    "name": "The road",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "34D8CFA8-A5E3-4990-A27D-C10963D24C74"
+  }
